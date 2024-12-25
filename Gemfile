@@ -63,4 +63,3 @@ gem 'pagy', '~> 0.6.0'
 
 gem 'ransack', '~> 4.2', '>= 4.2.1'
 
-gem 'pagy-extras'
