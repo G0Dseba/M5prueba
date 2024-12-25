@@ -160,9 +160,9 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.0-x86_64-linux-musl)
       racc (~> 1.4)
-    pagy (0.6.0)
-    pagy-extras (0.2.0)
-      pagy (~> 0.6)
+    pagy (9.3.3)
+    pagy-extras (0.3.0)
+      pagy (>= 0.8.0)
     parallel (1.26.3)
     parser (3.3.6.0)
       ast (~> 2.4.1)
@@ -313,7 +313,7 @@ DEPENDENCIES
   error_highlight (>= 0.4.0)
   importmap-rails
   jbuilder
-  pagy (~> 0.6.0)
+  pagy (~> 9.3.3)
   pagy-extras
   pg (~> 1.1)
   puma (>= 5.0)

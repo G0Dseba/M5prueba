@@ -59,7 +59,7 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem 'pagy', '~> 0.6.0'
+gem 'pagy', '~> 9.3.3'
 
 gem 'ransack', '~> 4.2', '>= 4.2.1'
 
