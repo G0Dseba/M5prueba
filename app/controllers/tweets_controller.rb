@@ -1,14 +1,14 @@
 class TweetsController < ApplicationController
-  include Pagy::Backend
   before_action :set_tweet, only: %i[ show edit update destroy ]
   
   
 
   # GET /tweets or /tweets.json
-  def index 
-    @q = Tweet.ransack(params[:q]) 
-    @pagy, @tweets = pagy(@q.result(distinct: true), items: 10) 
+  def index
+    @q = Tweet.ransack(params[:q])
+    @tweets = @q.result(distinct: true).page(params[:page]).per(10)
   end
+  
 
   # GET /tweets/1 or /tweets/1.json
   def show
