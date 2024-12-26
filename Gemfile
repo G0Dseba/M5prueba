@@ -61,4 +61,5 @@ end
 
 gem 'ransack', '~> 4.2', '>= 4.2.1'
 
-gem 'kaminari'
+gem 'kaminari-bootstrap'
+
