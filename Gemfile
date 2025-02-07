@@ -59,7 +59,7 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem 'ransack', '~> 4.2', '>= 4.2.1'
+gem 'ransack', '~> 4.3'
 
 gem 'kaminari-bootstrap'
 
